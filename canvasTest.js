@@ -3,7 +3,7 @@ const { hiddenAPI } = require('./hiddenAPI.js');
 async function introToCanvasAPI(){
     console.log("Starting Canvas API test...");
     const accessToken = await hiddenAPI();
-    const canvasDomain = "https://muhlenbergcollege.instructure.com/api/v1";
+    const canvasDomain = "https://yourschool.instructure.com/api/v1";
     const courseId = "*****"; // Replace with your actual course ID
 
     const assignment =
